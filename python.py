@@ -1,5 +1,6 @@
-def add(a,b):
-  return a+b
+def add(a, b):
+    return a + b
 
-add(2,5)
-add(3,6)
+def test_add():
+    assert add(2, 5) == 7
+    assert add(3, 6) == 9
