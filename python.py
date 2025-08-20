@@ -1,4 +1,5 @@
-a = 4
-b = 5
-c = 6
-print(a+b+c)
+def add(a,b):
+  return a+b
+
+add(2,5)
+add(3,6)
